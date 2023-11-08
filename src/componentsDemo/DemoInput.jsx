@@ -29,6 +29,10 @@ export const DemoInput = () => {
       onClick={handleButtonClick}>
         {buttonText}
       </Button>
+      <Input.Search
+        placeholder="Escribe un texto"
+        allowClear
+      />
     </>
   );
 };
