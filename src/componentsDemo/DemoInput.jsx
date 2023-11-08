@@ -22,6 +22,7 @@ export const DemoInput = () => {
         value={inputText}
         onChange={handleInputChange}
         prefix={<UserOutlined />}
+        allowClear
       />
       <Button
       type="primary"
