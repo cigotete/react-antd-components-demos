@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Button } from 'antd';
+import { VerticalAlignBottomOutlined } from '@ant-design/icons';
 import axios from 'axios';
 
 export function DemoButton () {
@@ -27,6 +28,7 @@ export function DemoButton () {
       type="primary"
       loading={isLoading}
       onClick={handleClick}
+      icon={<VerticalAlignBottomOutlined />}
       >
         {isLoading ? 'Cargando...' : 'Obtener Cita'}
       </Button>
