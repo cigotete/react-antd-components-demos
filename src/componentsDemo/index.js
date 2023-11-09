@@ -4,3 +4,4 @@ export * from './DemoSelect';
 export * from './DemoForm';
 export * from './DemoTable';
 export * from './DemoMessage';
+export * from './DemoAlert';
