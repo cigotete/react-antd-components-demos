@@ -7,3 +7,4 @@ export * from './DemoMessage';
 export * from './DemoAlert';
 export * from './DemoDatePicker';
 export * from './DemoSpin';
+export * from './DemoProgress';
