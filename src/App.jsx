@@ -7,6 +7,7 @@ import {
   DemoMessage,
   DemoAlert,
   DemoDatePicker,
+  DemoSpin,
 } from "./componentsDemo";
 export function App() {
 
@@ -29,6 +30,10 @@ export function App() {
       <div>
         <h3>Examples of DatePicker</h3>
         <DemoDatePicker />
+      </div>
+      <div>
+        <h3>Examples of Spin</h3>
+        <DemoSpin />
       </div>
     </>
   );
