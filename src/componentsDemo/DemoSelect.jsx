@@ -40,6 +40,7 @@ export const DemoSelect = () => {
         mode="multiple"
         placeholder="Select an instrument"
         style={{ width: '120px' }}
+        maxTagCount={ 2 }
       >
         {
           musicalInstruments.map((instrument, index) => (
