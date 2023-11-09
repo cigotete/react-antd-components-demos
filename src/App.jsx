@@ -4,6 +4,7 @@ import {
   DemoSelect,
   DemoForm,
   DemoTable,
+  DemoMessage,
 } from "./componentsDemo";
 export function App() {
 
@@ -14,6 +15,11 @@ export function App() {
       <DemoSelect />
       <DemoForm />
       <DemoTable />
+
+      <div>
+        <h3>Examples of Messages</h3>
+        <DemoMessage />
+      </div>
     </>
   );
 }
