@@ -3,6 +3,7 @@ import {
   DemoInput,
   DemoSelect,
   DemoForm,
+  DemoTable,
 } from "./componentsDemo";
 export function App() {
 
@@ -12,6 +13,7 @@ export function App() {
       <DemoInput />
       <DemoSelect />
       <DemoForm />
+      <DemoTable />
     </>
   );
 }
