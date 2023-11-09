@@ -2,6 +2,7 @@ import {
   DemoButton,
   DemoInput,
   DemoSelect,
+  DemoForm,
 } from "./componentsDemo";
 export function App() {
 
@@ -10,6 +11,7 @@ export function App() {
       <DemoButton />
       <DemoInput />
       <DemoSelect />
+      <DemoForm />
     </>
   );
 }
