@@ -6,6 +6,7 @@ import {
   DemoTable,
   DemoMessage,
   DemoAlert,
+  DemoDatePicker,
 } from "./componentsDemo";
 export function App() {
 
@@ -24,6 +25,10 @@ export function App() {
       <div>
         <h3>Examples of Alert</h3>
         <DemoAlert />
+      </div>
+      <div>
+        <h3>Examples of DatePicker</h3>
+        <DemoDatePicker />
       </div>
     </>
   );

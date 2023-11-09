@@ -5,3 +5,4 @@ export * from './DemoForm';
 export * from './DemoTable';
 export * from './DemoMessage';
 export * from './DemoAlert';
+export * from './DemoDatePicker';
