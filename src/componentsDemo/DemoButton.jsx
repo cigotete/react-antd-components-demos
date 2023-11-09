@@ -3,7 +3,7 @@ import { Button } from 'antd';
 import { VerticalAlignBottomOutlined } from '@ant-design/icons';
 import axios from 'axios';
 
-export function DemoButton () {
+export const DemoButton = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [quote, setQuote] = useState('');
 
